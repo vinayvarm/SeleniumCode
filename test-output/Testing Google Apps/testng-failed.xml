@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Google Apps]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="Salesdesk.BuyingBook">
+        <methods>
+          <include name="skippedMethod"/>
+        </methods>
+      </class> <!-- Salesdesk.BuyingBook -->
+      <class name="Salesdesk.ApplyCoupunCode">
+        <methods>
+          <include name="skippedMethod"/>
+          <include name="cCode"/>
+        </methods>
+      </class> <!-- Salesdesk.ApplyCoupunCode -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->
